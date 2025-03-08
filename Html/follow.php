@@ -217,8 +217,20 @@
       </div>
       <div class="formulario">
         <form class="row g-3">
+          
           <div class="col-md-6">
-            <label for="inputdofollow" class="form-label">Do follow</label>
+            <label for="inputdofollow" class="form-label">Codigo Seguimiento</label>
+            <input type="text" class="form-control" id="inputdofollow">
+          </div>
+          <div class="col-12">
+            <label for="inputEtapaAct" class="form-label">Estado:</label>
+            <select id="inputEtapaAct" class="form-select">
+              <option selected>Elegir...</option>
+              <option>...</option>
+            </select>         
+          </div>
+          <div class="col-md-6">
+            <label for="inputdofollow" class="form-label">Compañia:</label>
             <input type="text" class="form-control" id="inputdofollow">
           </div>
           <div class="col-md-6">
@@ -240,10 +252,7 @@
             <label for="inputFCEA" class="form-label">F_C_E_A</label>
             <input type="text" class="form-control" id="inputFCEA" placeholder="Comentario">
           </div>
-          <div class="col-md-6">
-            <label for="inputFechaAct" class="form-label">Fecha Etapa Act:</label>
-            <input type="Datetime-local" class="form-control" id="inputFechaAct">
-          </div>
+         
           <div class="col-12">
             <label for="inputEtapaSig" class="form-label">Etapa Sig:</label>
             <select id="inputEtapaSig" class="form-select">
