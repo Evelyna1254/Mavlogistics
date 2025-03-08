@@ -123,13 +123,13 @@
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="Ctzcomp.php">
                 <svg class="bi"><use xlink:href="#file-earmark"/></svg>
-                CtzComp
+                Cotización de Compra
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="Ctzvta.php">
                 <svg class="bi"><use xlink:href="#cart"/></svg>
-                CtzVta
+                Cotización de Venta
               </a>
             </li>
             <li class="nav-item">
@@ -141,7 +141,7 @@
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="follow.php">
                 <svg class="bi"><use xlink:href="#graph-up"/></svg>
-                Follow
+                Seguimiento
               </a>
             </li>
           </ul>
@@ -174,13 +174,19 @@
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="#">
                 <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
-                Incoterm
+                Paises
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="#">
                 <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
-                Aeroptos
+                Puertos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
+                Conceptos
               </a>
             </li>
           </ul>
@@ -207,7 +213,7 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">CTZCOMP</h1>
+        <h1 class="h2">COTIZACION DE COMPRA</h1>
       </div>
        <div class="formulario">
         <form class="row g-3">

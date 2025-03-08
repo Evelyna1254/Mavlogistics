@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>FOLLOW</title>
+    <title>TERCEROS</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/dashboard/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -123,27 +123,22 @@
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="Ctzcomp.php">
                 <svg class="bi"><use xlink:href="#file-earmark"/></svg>
-                CtzComp
+                Modulo Comercial
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="Ctzvta.php">
                 <svg class="bi"><use xlink:href="#cart"/></svg>
-                CtzVta
+                Modulo Operativo
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="Sido.php">
                 <svg class="bi"><use xlink:href="#people"/></svg>
-                SiDo
+                Modulo Administrativo
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="follow.php">
-                <svg class="bi"><use xlink:href="#graph-up"/></svg>
-                Follow
-              </a>
-            </li>
+           
           </ul>
 
           <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-body-secondary text-uppercase">
@@ -166,7 +161,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
+              <a class="nav-link d-flex align-items-center gap-2" href="terceros.php">
                 <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                 Terceros
               </a>
@@ -174,13 +169,19 @@
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="#">
                 <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
-                Incoterm
+                Paises
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="#">
                 <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
-                Aeroptos
+                Puertos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
+                Conceptos
               </a>
             </li>
           </ul>
@@ -207,55 +208,79 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">FOLLOW</h1>
+        <h1 class="h2">TERCEROS</h1>
       </div>
       <div class="formulario">
         <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputdofollow" class="form-label">Do follow</label>
+          <div class="col-md-12">
+            <label for="inputdofollow" class="form-label">Razón Social:</label>
             <input type="text" class="form-control" id="inputdofollow">
           </div>
-          <div class="col-md-6">
-            <label for="inputServicio" class="form-label">Servicio y Subservicio</label>
-            <input type="text" class="form-control" id="inputServicio">
-          </div>
           <div class="col-12">
-            <label for="inputEtapaAct" class="form-label">Etapa Act:</label>
+            <label for="inputEtapaAct" class="form-label">Pais</label>
             <select id="inputEtapaAct" class="form-select">
               <option selected>Elegir...</option>
               <option>...</option>
             </select>         
           </div>
           <div class="col-12">
-            <label for="inputEnvioMail" class="form-label"></label>
-            <textarea class="form-control" id="inputEnvioMail" rows="3"></textarea>
+            <label for="inputEtapaAct" class="form-label">Ciudad</label>
+            <select id="inputEtapaAct" class="form-select">
+              <option selected>Elegir...</option>
+              <option>...</option>
+            </select>         
           </div>
+        
           <div class="col-md-6">
-            <label for="inputFCEA" class="form-label">F_C_E_A</label>
+            <label for="inputFCEA" class="form-label">Nit:</label>
             <input type="text" class="form-control" id="inputFCEA" placeholder="Comentario">
           </div>
           <div class="col-md-6">
-            <label for="inputFechaAct" class="form-label">Fecha Etapa Act:</label>
-            <input type="Datetime-local" class="form-control" id="inputFechaAct">
+            <label for="inputFechaAct" class="form-label">Dirección:</label>
+            <input type="text" class="form-control" id="inputFechaAct">
+          </div>
+          <div class="col-md-6">
+            <label for="inputFechaAct" class="form-label">Telefono:</label>
+            <input type="tel" class="form-control" id="inputFechaAct">
+          </div>
+          <div class="col-md-6">
+            <label for="inputFechaAct" class="form-label">Celular:</label>
+            <input type="tel" class="form-control" id="inputFechaAct">
           </div>
           <div class="col-12">
-            <label for="inputEtapaSig" class="form-label">Etapa Sig:</label>
+            <label for="inputEtapaSig" class="form-label">Tipo de Tercero:</label>
             <select id="inputEtapaSig" class="form-select">
               <option selected>Elegir...</option>
               <option>...</option>
             </select>         
           </div>
-          <div class="col-12">
-            <label for="inputEnvioMailSig" class="form-label"></label>
-            <textarea class="form-control" id="inputEnvioMailSig" rows="3"></textarea>
-          </div>
+         
           <div class="col-md-6">
-            <label for="inputFCES" class="form-label">F_C_E_S</label>
+            <label for="inputFCES" class="form-label">Contacto</label>
             <input type="text" class="form-control" id="inputFCES" placeholder="Comentario">
           </div>
           <div class="col-md-6">
-            <label for="inputFechaSig" class="form-label">Fecha Etapa Sig:</label>
+            <label for="inputFechaSig" class="form-label">Cargo:</label>
+            <input type="text" class="form-control" id="inputFechaSig">
+          </div>
+          <div class="col-md-6">
+            <label for="inputFechaSig" class="form-label">Correo:</label>
+            <input type="email" class="form-control" id="inputFechaSig">
+          </div>
+          <div class="col-md-6">
+            <label for="inputFechaSig" class="form-label">Cumpleaños:</label>
             <input type="Datetime-local" class="form-control" id="inputFechaSig">
+          </div>
+          <div class="col-12">
+            <label for="inputEtapaSig" class="form-label">Condiciones de Pago:</label>
+            <select id="inputEtapaSig" class="form-select">
+              <option selected>Elegir...</option>
+              <option>...</option>
+            </select>         
+          </div>
+          <div class="col-md-12">
+            <label for="inputFechaSig" class="form-label">Observaciones:</label>
+            <input type="text" class="form-control" id="inputFechaSig">
           </div>
           <div class="col-12">
             <button type="submit" class="btn btn-primary">Agregar</button>
