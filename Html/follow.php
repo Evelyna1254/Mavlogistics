@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>FOLLOW</title>
+    <title>SEGUIMIENTO</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/dashboard/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -123,13 +123,13 @@
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="Ctzcomp.php">
                 <svg class="bi"><use xlink:href="#file-earmark"/></svg>
-                CtzComp
+                Cotizacin de Compra
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="Ctzvta.php">
                 <svg class="bi"><use xlink:href="#cart"/></svg>
-                CtzVta
+                Cotizacin DE Venta
               </a>
             </li>
             <li class="nav-item">
@@ -141,7 +141,7 @@
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="follow.php">
                 <svg class="bi"><use xlink:href="#graph-up"/></svg>
-                Follow
+                Seguimiento
               </a>
             </li>
           </ul>
@@ -166,21 +166,27 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
+              <a class="nav-link d-flex align-items-center gap-2" href="terceros.php">
                 <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
                 Terceros
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
+              <a class="nav-link d-flex align-items-center gap-2" href="paises.php">
                 <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
-                Incoterm
+                Paises
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link d-flex align-items-center gap-2" href="#">
                 <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
-                Aeroptos
+                Puertos
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark-text"/></svg>
+                Conceptos
               </a>
             </li>
           </ul>
@@ -207,7 +213,7 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">FOLLOW</h1>
+        <h1 class="h2">SEGUIMIENTO</h1>
       </div>
       <div class="formulario">
         <form class="row g-3">
